@@ -86,3 +86,27 @@
     "token": "string"
   }
   ```
+
+### Products (`products/` route)
+
+- POST `/` - Create new product (for admin only)
+
+  **Request headers**:
+
+  ```json
+  {
+    "token": "string"
+  }
+  ```
+
+  **Request body**:
+
+  ```json
+  {
+    "title": "string",
+    "desc": "string",
+    "img": "string",
+    "category": [],
+    "price": "number"
+  }
+  ```
